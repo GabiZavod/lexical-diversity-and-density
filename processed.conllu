@@ -1,0 +1,111 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = czech-pdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vstupte do magického světa plného dobrodružství, přátelství a nečekaných obratů v novém filmu "Králík a Liška."
+1	Vstupte	vstupit	VERB	Vi-P---2--A-P--	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	_	_	_	TokenRange=0:7
+2	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	_	_	_	TokenRange=8:10
+3	magického	magický	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=11:20
+4	světa	svět	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=21:26
+5	plného	plný	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=27:33
+6	dobrodružství	dobrodružství	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=34:47
+7	,	,	PUNCT	Z:-------------	_	_	_	_	TokenRange=47:48
+8	přátelství	přátelství	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	TokenRange=49:59
+9	a	a	CCONJ	J^-------------	_	_	_	_	TokenRange=60:61
+10	nečekaných	čekaný	ADJ	AAIP2----1N----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	_	_	_	TokenRange=62:72
+11	obratů	obrat	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	_	_	_	TokenRange=73:79
+12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	_	_	_	TokenRange=80:81
+13	novém	nový	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=82:87
+14	filmu	film	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=88:93
+15	"	"	PUNCT	Z:-------------	_	_	_	_	SpaceAfter=No|TokenRange=94:95
+16	Králík	králík	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=95:101
+17	a	a	CCONJ	J^-------------	_	_	_	_	TokenRange=102:103
+18	Liška	liška	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=104:109
+19	.	.	PUNCT	Z:-------------	_	_	_	_	SpaceAfter=No|TokenRange=109:110
+20	"	"	PUNCT	Z:-------------	_	_	_	_	SpacesAfter=\r\n|TokenRange=110:111
+
+# sent_id = 2
+# text = Ve starobylém lesním království se setkávají dva zdánlivě odlišní hrdinové - skromný Králík a statečná Liška.
+1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	_	_	_	TokenRange=113:115
+2	starobylém	starobylý	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	TokenRange=116:126
+3	lesním	lesní	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	TokenRange=127:133
+4	království	království	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	TokenRange=134:144
+5	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	TokenRange=145:147
+6	setkávají	setkávat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=148:157
+7	dva	dva	NUM	CnYP1----------	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	_	_	_	TokenRange=158:161
+8	zdánlivě	zdánlivě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	_	_	_	TokenRange=162:170
+9	odlišní	odlišný	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	_	_	_	TokenRange=171:178
+10	hrdinové	hrdina	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	_	_	_	TokenRange=179:187
+11	-	-	PUNCT	Z:-------------	_	_	_	_	TokenRange=188:189
+12	skromný	skromný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=190:197
+13	Králík	Králík	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	_	_	_	TokenRange=198:204
+14	a	a	CCONJ	J^-------------	_	_	_	_	TokenRange=205:206
+15	statečná	statečný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	TokenRange=207:215
+16	Liška	liška	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=216:221
+17	.	.	PUNCT	Z:-------------	_	_	_	_	TokenRange=221:222
+
+# sent_id = 3
+# text = Když tajemný kámen s magickými schopnostmi ohrožuje rovnováhu lesa, musí společně překonat všechny překážky a zachránit svůj domov.
+1	Když	když	SCONJ	J,-------------	_	_	_	_	TokenRange=223:227
+2	tajemný	tajemný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=228:235
+3	kámen	kámen	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=236:241
+4	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	_	_	_	TokenRange=242:243
+5	magickými	magický	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	_	_	_	TokenRange=244:253
+6	schopnostmi	schopnost	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	_	_	_	TokenRange=254:265
+7	ohrožuje	ohrožovat	VERB	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=266:274
+8	rovnováhu	rovnováha	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	TokenRange=275:284
+9	lesa	les	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=285:289
+10	,	,	PUNCT	Z:-------------	_	_	_	_	TokenRange=289:290
+11	musí	muset	VERB	VB-P---3P-AAI-1	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=291:295
+12	společně	společně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	_	_	_	TokenRange=296:304
+13	překonat	překonat	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	_	_	_	TokenRange=305:313
+14	všechny	všechen	DET	PLFP4----------	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	_	_	_	TokenRange=314:321
+15	překážky	překážka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	_	_	_	TokenRange=322:330
+16	a	a	CCONJ	J^-------------	_	_	_	_	TokenRange=331:332
+17	zachránit	zachránit	VERB	Vf--------A-P--	Aspect=Perf|Polarity=Pos|VerbForm=Inf	_	_	_	TokenRange=333:342
+18	svůj	svůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	_	_	_	TokenRange=343:347
+19	domov	domov	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=348:353
+20	.	.	PUNCT	Z:-------------	_	_	_	_	SpacesAfter=\r\n|TokenRange=353:354
+
+# sent_id = 4
+# text = Během své cesty objevují starodávná tajemství, potkávají se s nástrahami a objevují sílu pravého přátelství.
+1	Během	během	ADP	RR--2----------	AdpType=Prep|Case=Gen	_	_	_	TokenRange=356:361
+2	své	svůj	DET	P8FS2---------1	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	_	_	_	TokenRange=362:365
+3	cesty	cesta	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	TokenRange=366:371
+4	objevují	objevovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=372:380
+5	starodávná	starodávný	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	_	_	_	TokenRange=381:391
+6	tajemství	tajemství	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=392:401
+7	,	,	PUNCT	Z:-------------	_	_	_	_	TokenRange=401:402
+8	potkávají	potkávat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=403:412
+9	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	TokenRange=413:415
+10	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	_	_	_	TokenRange=416:417
+11	nástrahami	nástraha	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	_	_	_	TokenRange=418:428
+12	a	a	CCONJ	J^-------------	_	_	_	_	TokenRange=429:430
+13	objevují	objevovat	VERB	VB-P---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=431:439
+14	sílu	síla	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	TokenRange=440:444
+15	pravého	pravý	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	TokenRange=445:452
+16	přátelství	přátelství	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=453:463
+17	.	.	PUNCT	Z:-------------	_	_	_	_	TokenRange=463:464
+
+# sent_id = 5
+# text = Příběh, který zahřeje srdce a je inspirovaný kouzlem přírody, je vhodný pro celou rodinu.
+1	Příběh	příběh	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=465:471
+2	,	,	PUNCT	Z:-------------	_	_	_	_	TokenRange=471:472
+3	který	který	DET	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	_	_	_	TokenRange=473:478
+4	zahřeje	zahřát	VERB	VB-S---3P-AAP--	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=479:486
+5	srdce	srdce	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	TokenRange=487:492
+6	a	a	CCONJ	J^-------------	_	_	_	_	TokenRange=493:494
+7	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=495:497
+8	inspirovaný	inspirovaný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	_	_	_	TokenRange=498:509
+9	kouzlem	kouzlo	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	_	_	_	TokenRange=510:517
+10	přírody	příroda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=518:525
+11	,	,	PUNCT	Z:-------------	_	_	_	_	TokenRange=525:526
+12	je	být	AUX	VB-S---3P-AAI--	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	TokenRange=527:529
+13	vhodný	vhodný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	_	_	_	TokenRange=530:536
+14	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	_	_	_	TokenRange=537:540
+15	celou	celý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	TokenRange=541:546
+16	rodinu	rodina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	_	_	_	SpaceAfter=No|TokenRange=547:553
+17	.	.	PUNCT	Z:-------------	_	_	_	_	SpacesAfter=\r\n|TokenRange=553:554
+
